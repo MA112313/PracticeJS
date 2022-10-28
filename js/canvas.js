@@ -10,7 +10,16 @@ ctx.arc(250, 100, 50, 0, 2 * Math.PI);
 ctx.fill();
 
 ctx.beginPath();
-ctx.fillStyle = "white";
+ctx.fillStyle = "green";
 ctx.arc(260 + 10, 80, 8, 1 * Math.PI, 2 * Math.PI);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "yellow";
 ctx.arc(220 + 10, 80, 8, 1 * Math.PI, 2 * Math.PI);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "red";
+ctx.arc(240 + 10, 100, 20, 2 * Math.PI, 1 * Math.PI);
 ctx.fill();
